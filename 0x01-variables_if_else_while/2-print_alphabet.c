@@ -1,4 +1,4 @@
-#include <stdio.h> 
+#include <stdio.h>
 
 /**
  * main - main function
@@ -8,8 +8,10 @@
 
 int main(void)
 {
-         for (i = 'a' ; i <= 'z' ;++)
-		 putchar(i); 
-	 putchar('\n');
-	 return(0);
+char i;
+    
+for (i = 'a' ; i <= 'z' ; i++)
+putchar(i); 
+putchar('\n');
+return (0);
 }
